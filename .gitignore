@@ -1,0 +1,8 @@
+*.sketch
+*.fig
+*.xd
+.DS_Store
+*.md
+design
+preview.jpg
+assets/fonts/README.txt
