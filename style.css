@@ -75,7 +75,7 @@ section {
 }
 
 .card-2 {
-  background-color: White;
+  background-color: var(--White);
 }
 
 .card-3 {
