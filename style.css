@@ -1,0 +1,102 @@
+@import url();
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+:root {
+  --Purple-100: hsl(254, 88%, 90%);
+  --Purple-500: hsl(256, 67%, 59%);
+  --Yellow-100: hsl(31, 66%, 93%);
+  --Yellow-500: hsl(39, 100%, 71%);
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 7%);
+  --para-size: 18px;
+  --font-weight-1: 400;
+  --font-weight-2: 500;
+}
+
+img {
+  width: 300px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+main {
+  width: 95%;
+  display: grid;
+  gap: 10px;
+}
+
+section {
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-1 {
+  background-color: var(--Purple-500);
+  color: var(--White);
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+}
+
+.card-1 .card-1-p1 {
+  font-weight: 700;
+  width: 10ch;
+  margin: 20px 0;
+}
+
+.card-1 .ten-x {
+  color: var(--Yellow-500);
+}
+
+.card-1 .faster {
+  font-style: italic;
+}
+
+.five-stars {
+  width: 40%;
+}
+
+.card-1 p {
+  font-size: 18px;
+  font-weight: var(--font-weight-1);
+}
+
+.card-2 {
+  background-color: /*var(--White)*/ red;
+}
+
+.card-3 {
+  background: var(--Yellow-500);
+}
+
+.card-4 {
+  background-color: var(--Purple-100);
+}
+
+.card-5 {
+  background-color: var(--Purple-500);
+}
+
+.card-6 {
+  background-color: /*var(--White)*/ red;
+}
+
+.card-7 {
+  background-color: var(--Yellow-100);
+}
+
+.card-8 {
+  background-color: var(--Yellow-500);
+}
