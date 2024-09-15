@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "DM Sans", sans-serif;
+  letter-spacing: -1px;
 }
 
 :root {
@@ -34,7 +35,7 @@ main {
 
 section {
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -44,7 +45,6 @@ section {
   color: var(--White);
   text-align: center;
   align-items: center;
-  padding: 20px 0;
 }
 
 .card-1 .card1-p1 {
@@ -53,7 +53,6 @@ section {
   width: 8ch;
   margin: 20px 0;
   line-height: 35px;
-  letter-spacing: -1px;
 }
 
 .card-1 .ten-x {
@@ -87,7 +86,6 @@ section {
   font-size: var(--para-size);
   font-weight: var(--font-weight-2);
   line-height: 18px;
-  letter-spacing: -1px;
   width: 17ch;
 }
 
@@ -99,7 +97,6 @@ section {
 .card-3 p {
   font-size: var(--para-size);
   font-weight: var(--font-weight-2);
-  letter-spacing: -1px;
   width: 15ch;
   line-height: 18px;
 }
@@ -156,7 +153,6 @@ section {
 
 .card-6 {
   background-color: var(--White);
-  padding: 15px;
 }
 
 .card-6 span {
@@ -166,7 +162,6 @@ section {
 
 .card-6 p {
   padding: 10px 0;
-
 }
 
 .audience-growth {
@@ -178,14 +173,34 @@ section {
   background-color: var(--Yellow-100);
 }
 
+.card-7 h2 {
+  font-weight: var(--font-weight-2);
+  width: 15ch;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.card-7 h2 span {
+  color: var(--Purple-500);
+  font-style: italic;
+}
+
 .create-post {
-  width: 20%;
+  width: 60%;
+  padding-top: 10px;
 }
 
 .card-8 {
   background-color: var(--Yellow-500);
 }
 
+.card-8 h2 {
+  font-weight: var(--font-weight-2);
+  width: 15ch;
+  line-height: 20px;
+}
+
 .ai-content {
-  width: 20%;
+  width: 60%;
+  padding-top: 20px;
 }
