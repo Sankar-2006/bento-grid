@@ -1,4 +1,4 @@
-@import url(./assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+@import url(./assets/fonts/static/DMSans-Regular.ttf);
 
 * {
   padding: 0;
@@ -19,20 +19,17 @@
   --font-weight-2: 500;
 }
 
-img {
-  width: 300px;
-}
-
 body {
   display: flex;
   justify-content: center;
   margin: 20px 0;
+  background-color: #000;
 }
 
 main {
   width: 95%;
   display: grid;
-  gap: 10px;
+  gap: 25px;
 }
 
 section {
@@ -47,6 +44,7 @@ section {
   color: var(--White);
   text-align: center;
   align-items: center;
+  padding: 20px 0;
 }
 
 .card-1 .card1-p1 {
@@ -67,38 +65,89 @@ section {
 }
 
 .five-stars {
-  width: 40%;
+  width: 60%;
 }
 
-.card-1 p {
-  font-size: 18px;
+.card1-p2 {
+  font-size: var(--para-size);
   font-weight: var(--font-weight-1);
+  padding: 10px 0;
 }
 
 .card-2 {
-  background-color: var(--White);
+  background-color: white;
+}
+
+.social-media {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.card-2 p {
+  font-size: var(--para-size);
+  font-weight: var(--font-weight-2);
+  line-height: 18px;
+  letter-spacing: -1px;
+  width: 17ch;
 }
 
 .card-3 {
   background: var(--Yellow-500);
+  overflow: hidden;
+}
+
+.card-3 p {
+  font-size: var(--para-size);
+  font-weight: var(--font-weight-2);
+  letter-spacing: -1px;
+  width: 15ch;
+  line-height: 20px;
+}
+
+.calander {
+  width: 50%;
+  position: relative;
+  top: 20px;
 }
 
 .card-4 {
   background-color: var(--Purple-100);
+  display: flex;
+  align-items: center;
+}
+
+.schedule-posts {
+  width: 100%;
 }
 
 .card-5 {
   background-color: var(--Purple-500);
 }
 
+.grow-followers {
+  width: 20%;
+}
+
 .card-6 {
   background-color: var(--White);
+}
+
+.audience-growth {
+  width: 20%;
 }
 
 .card-7 {
   background-color: var(--Yellow-100);
 }
 
+.create-post {
+  width: 20%;
+}
+
 .card-8 {
   background-color: var(--Yellow-500);
+}
+
+.ai-content {
+  width: 20%;
 }
