@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 20px 0;
-  background-color: #000;
+  background-color: whitesmoke;
 }
 
 main {
@@ -101,39 +101,77 @@ section {
   font-weight: var(--font-weight-2);
   letter-spacing: -1px;
   width: 15ch;
-  line-height: 20px;
+  line-height: 18px;
 }
 
 .calander {
-  width: 50%;
+  width: 55%;
   position: relative;
   top: 20px;
 }
 
 .card-4 {
   background-color: var(--Purple-100);
-  display: flex;
-  align-items: center;
+  text-align: center;
+}
+
+.card4-p1 {
+  font-size: var(--para-size);
+  font-weight: var(--font-weight-2);
+  padding: 10px 0;
 }
 
 .schedule-posts {
   width: 100%;
+  padding: 10px 0;
+}
+
+.card4-p2 {
+  font-weight: var(--font-weight-1);
+  width: 22ch;
+  margin: 0 auto;
+  line-height: 18px;
+  padding: 15px 0;
 }
 
 .card-5 {
   background-color: var(--Purple-500);
+  text-align: center;
 }
 
 .grow-followers {
-  width: 20%;
+  width: 60%;
+  margin: auto;
+}
+
+.card-5 p {
+  color: var(--White);
+  font-size: var(--para-size);
+  font-weight: var(--font-weight-2);
+  width: 12ch;
+  margin: auto;
+  line-height: 17px;
+  padding: 20px 0 10px 0;
 }
 
 .card-6 {
   background-color: var(--White);
+  padding: 15px;
+}
+
+.card-6 span {
+  font-size: xx-large;
+  font-weight: var(--font-weight-2);
+}
+
+.card-6 p {
+  padding: 10px 0;
+
 }
 
 .audience-growth {
-  width: 20%;
+  width: 60%;
+  padding: 10px 0;
 }
 
 .card-7 {
