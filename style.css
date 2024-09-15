@@ -27,7 +27,7 @@ body {
 }
 
 main {
-  width: 95%;
+  width: 90%;
   display: grid;
   gap: 25px;
 }
@@ -49,8 +49,8 @@ section {
 
 .card-1 .card1-p1 {
   font-size: 40px;
-  font-weight: 600;
-  width: 10ch;
+  font-weight: var(--font-weight-2);
+  width: 8ch;
   margin: 20px 0;
   line-height: 35px;
   letter-spacing: -1px;
