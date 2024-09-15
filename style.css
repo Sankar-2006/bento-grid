@@ -49,12 +49,13 @@ section {
   align-items: center;
 }
 
-.card-1 .card-1-p1 {
-  font-size: 18px;
-
-  font-weight: 700;
+.card-1 .card1-p1 {
+  font-size: 40px;
+  font-weight: 600;
   width: 10ch;
   margin: 20px 0;
+  line-height: 35px;
+  letter-spacing: -1px;
 }
 
 .card-1 .ten-x {
