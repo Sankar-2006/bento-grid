@@ -91,7 +91,7 @@ section {
 }
 
 .card-6 {
-  background-color: /*var(--White)*/ red;
+  background-color: var(--White);
 }
 
 .card-7 {
