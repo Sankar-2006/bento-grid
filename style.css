@@ -50,7 +50,7 @@ section {
 .card-1 .card1-p1 {
   font-size: 40px;
   font-weight: var(--font-weight-2);
-  width: 8ch;
+  width: 10ch;
   padding: 20px 0;
   line-height: 35px;
 }
@@ -225,7 +225,7 @@ section {
   }
 
   .card-1 .card1-p1 {
-    width: 10ch;
+    width: 12ch;
   }
 
   .five-stars {
@@ -283,23 +283,25 @@ section {
   }
 
   .schedule-posts {
-    width: 150%;
-    padding: 10px 0;
+    width: 180%;
+    padding: 10px 0 0 0;
   }
 
   .card4-p2 {
+    font-size: 14px;
     width: 15ch;
     line-height: 18px;
-    padding: 15px 0;
   }
 
   .card-5 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
     padding: 10px 5px;
     grid-row: 8 / 11;
     grid-column: 3 / 5;
+    text-align: left;
   }
 
   .grow-followers {
@@ -307,10 +309,9 @@ section {
   }
 
   .card-5 p {
-    width: 12ch;
-    margin: auto;
-    line-height: 17px;
-    padding: 20px 0 10px 0;
+    font-size: 26px;
+    width: 10ch;
+    line-height: 23px;
   }
 
   .card-6 {
