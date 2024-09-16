@@ -51,7 +51,7 @@ section {
   font-size: 40px;
   font-weight: var(--font-weight-2);
   width: 8ch;
-  margin: 20px 0;
+  padding: 20px 0;
   line-height: 35px;
 }
 
@@ -203,4 +203,164 @@ section {
 .ai-content {
   width: 60%;
   padding-top: 20px;
+}
+
+@media (min-width: 475px) {
+  body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  main {
+    width: auto;
+    grid-template-columns: repeat(4, 170px);
+    grid-template-rows: repeat(10, 35px);
+  }
+
+  .card-1 {
+    grid-row: 1 / 5;
+    grid-column: 2/ 4;
+  }
+
+  .card-1 .card1-p1 {
+    width: 10ch;
+  }
+
+  .five-stars {
+    width: 35%;
+  }
+
+  .card1-p2 {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .card-2 {
+    overflow: hidden;
+    grid-row: 5 / 8;
+    grid-column: 2 / 3;
+  }
+
+  .social-media {
+    width: 150%;
+    padding: 0;
+  }
+
+  .card-2 p {
+    padding-top: 10px;
+    line-height: 16px;
+    width: 9ch;
+  }
+
+  .card-3 {
+    grid-row: 5 / 8;
+    grid-column: 3 / 4;
+  }
+
+  .card-3 p {
+    width: 10ch;
+    line-height: 16px;
+  }
+
+  .calander {
+    padding-top: 10px;
+    width: 100%;
+    position: static;
+  }
+
+  .card-4 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 8;
+    text-align: left;
+    overflow: hidden;
+  }
+
+  .card4-p1 {
+    line-height: 16px;
+    padding: 10px 0;
+  }
+
+  .schedule-posts {
+    width: 150%;
+    padding: 10px 0;
+  }
+
+  .card4-p2 {
+    width: 15ch;
+    line-height: 18px;
+    padding: 15px 0;
+  }
+
+  .card-5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 5px;
+    grid-row: 8 / 11;
+    grid-column: 3 / 5;
+  }
+
+  .grow-followers {
+    width: 40%;
+  }
+
+  .card-5 p {
+    width: 12ch;
+    margin: auto;
+    line-height: 17px;
+    padding: 20px 0 10px 0;
+  }
+
+  .card-6 {
+    grid-row: 8 / 11;
+    grid-column: 2 / 3;
+    padding-top: 10px;
+  }
+
+  .card-6 span {
+    font-size: 40px;
+  }
+
+  .card-6 p {
+    font-size: 13px;
+    padding: 0;
+  }
+
+  .audience-growth {
+    width: 80%;
+    padding: 20px 0 10px 0;
+  }
+
+  .card-7 {
+    display: flex;
+    justify-content: center;
+    grid-row: 1 / 6;
+    grid-column: 1 / 2;
+  }
+
+  .card-7 h2 {
+    width: 10ch;
+    line-height: 22px;
+  }
+
+  .create-post {
+    width: 100%;
+  }
+
+  .card-8 {
+    grid-row: 6 / 11;
+    grid-column: 1 / 2;
+  }
+
+  .card-8 h2 {
+    width: 8ch;
+    line-height: 22px;
+  }
+
+  .ai-content {
+    padding-top: 30px;
+    width: 110%;
+  }
 }
